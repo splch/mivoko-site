@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="380" rx="24" fill="#0f172a"/>
+  <g transform="translate(40,40)" fill="url(#g)">
+    <rect x="0" y="0" width="240" height="120" rx="16" opacity=".25"/>
+    <rect x="120" y="60" width="320" height="120" rx="16" opacity=".35"/>
+    <rect x="40" y="160" width="280" height="120" rx="16" opacity=".2"/>
+  </g>
+  <g fill="#fff" opacity=".9" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="14">
+    <text x="60" y="90">你好! Hola! مرحبا! Привет!</text>
+    <text x="160" y="150">Let's practice today's words →</text>
+    <text x="80" y="250">café · 朋友 · fútbol · اللغة · книга</text>
+  </g>
+</svg>

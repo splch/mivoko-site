@@ -1,0 +1,153 @@
+
+*(links above are summarized in the main answer with citations)*
+
+---
+
+### `index.html`
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mivoko — Learn languages by chatting</title>
+  <meta name="description" content="Mivoko helps you learn 20 languages by texting with friendly AI tutors who teach new words daily and reinforce through fun conversation." />
+  <link rel="canonical" href="https://mivoko.com/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Mivoko — Learn languages by chatting" />
+  <meta property="og:description" content="Learn with AI personas that match real culture. Daily words, spaced repetition, and fun chat." />
+  <meta property="og:url" content="https://mivoko.com/" />
+  <meta property="og:type" content="website" />
+  <!-- Replace with a hosted PNG for richer link cards -->
+  <meta property="og:image" content="https://mivoko.com/assets/logo.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="/assets/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+
+  <meta name="theme-color" content="#0f172a" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#"><img src="/assets/logo.svg" alt="Mivoko logo" width="28" height="28" /><span>Mivoko</span></a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <nav id="nav-menu" class="menu" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#languages">Languages</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-sm" href="https://app.mivoko.com" target="_blank" rel="noopener">Open the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Learn a language by <em>chatting</em>.</h1>
+          <p>Daily new words, spaced review, and cultural personas that make practice fun.</p>
+          <div class="cta">
+            <a class="btn btn-lg" href="https://app.mivoko.com" target="_blank" rel="noopener">Start free</a>
+            <a class="btn btn-outline btn-lg" href="#pricing">See pricing</a>
+          </div>
+          <p class="fineprint">No signup needed to try. Works on web & mobile.</p>
+        </div>
+        <div class="hero-art">
+          <img src="/assets/hero.svg" alt="Chat bubbles illustration" width="520" height="380" />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Why Mivoko</h2>
+        <div class="grid features">
+          <div class="card">
+            <h3>Chat‑first tutoring</h3>
+            <p>Pick a persona and talk. They speak your language and theirs—gradually increasing immersion.</p>
+          </div>
+          <div class="card">
+            <h3>Daily words & review</h3>
+            <p>Learn new vocab and reinforce with a proven spaced‑repetition scheduler.</p>
+          </div>
+          <div class="card">
+            <h3>Real culture</h3>
+            <p>Interests, hobbies, and personality match what’s popular in the country you’re learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="languages" class="section alt">
+      <div class="container">
+        <h2>20 languages</h2>
+        <ul class="lang-grid">
+          <li>English</li><li>Chinese</li><li>Spanish</li><li>Arabic</li><li>Russian</li>
+          <li>Portuguese</li><li>French</li><li>Hindi</li><li>Indonesian</li><li>Persian</li>
+          <li>Bengali</li><li>Turkish</li><li>German</li><li>Japanese</li><li>Vietnamese</li>
+          <li>Thai</li><li>Amharic</li><li>Burmese</li><li>Italian</li><li>Korean</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="grid pricing">
+          <div class="card">
+            <h3>Free</h3>
+            <p>Daily messages, core features, and progress tracking.</p>
+            <ul>
+              <li>Daily messages limit</li>
+              <li>20 languages</li>
+              <li>Basic review</li>
+            </ul>
+            <a class="btn btn-block" href="https://app.mivoko.com" target="_blank" rel="noopener">Start free</a>
+          </div>
+          <div class="card highlight">
+            <h3>Pro</h3>
+            <p>Higher limits, faster review, and more customization.</p>
+            <ul>
+              <li>Higher daily messages</li>
+              <li>Priority responses</li>
+              <li>Advanced review tools</li>
+            </ul>
+            <a class="btn btn-block" href="https://app.mivoko.com" target="_blank" rel="noopener">Upgrade in app</a>
+            <p class="fineprint">Billing handled securely by Stripe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section alt">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details><summary>Do I need an account to try it?</summary><p>No. You can start a guest session on web and begin chatting immediately.</p></details>
+        <details><summary>How is my data used?</summary><p>See our <a href="/privacy.html">Privacy Policy</a>. You can delete your account in the app.</p></details>
+        <details><summary>Can I switch languages?</summary><p>Yes—choose a persona for the language you want to learn and start chatting.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mivoko</p>
+      <nav aria-label="Footer">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="mailto:spencer@mivoko.com">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/assets/app.js" defer></script>
+  <noscript>This site works best with JavaScript enabled.</noscript>
+</body>
+</html>
