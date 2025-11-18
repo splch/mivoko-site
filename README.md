@@ -1,4 +1,4 @@
-# Mivoko Landing Site (GitHub Pages)
+# Mivoko Landing Site
 
 This repo serves **mivoko.com** via GitHub Pages.
 
